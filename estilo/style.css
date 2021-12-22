@@ -10,13 +10,8 @@
 body {
     font-size: 100%;
     background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    overflow: hidden;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
-
-
 
 :root {
     --font01: 'Sarala', sans-serif;
@@ -113,19 +108,20 @@ body {
     padding-top: 48px;
     font-family: var(--font02);
     font-size: 24px;
+    font-weight: 400;
     color: #fff2ef;
     margin-bottom: 16px;
 }
 
 .conteudo-secundario-paragrafo {
     font-family: var(--font01);
-    font-weight: 300;
+    font-weight: 400;
     font-size: 18px;
     color: #ECD6C4;
 }
 
 .rodape {
-    padding: 32px;
+    padding: 24px;
     border-top: 0.4px solid #FFF2E7;
 }
 
