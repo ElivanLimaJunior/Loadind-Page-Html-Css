@@ -144,6 +144,8 @@ body {
         text-align: center;
     }
     .cabecalho-img {
+        height: 25%;
+        width: 25%;
         align-self: center;
         margin-bottom: 16px;
     }
